@@ -101,11 +101,13 @@ implement them), new feature implementations are welcome as pull requests :)
 
 Install dependencies:
 
+* Cmake
+* gcc
 * meson \*
 * wayland
-* wayland-protocols \*
-* libxkbcommon
-* cairo
+* wayland-protocols \* (wayland-devel)
+* libxkbcommon (libxkbcommon-devel)
+* cairo (cairo-devel)
 * gdk-pixbuf2 \*\*
 * pam (optional)
 * fprintd (optional: fingerprint support)
