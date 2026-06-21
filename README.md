@@ -31,6 +31,8 @@ codebase:
   user-supplied C files as lock screen effects at runtime, invoking `cc(1)` from
   within the lock screen process. It had no known users and has been removed
   along with `--time-effects`.
+- **`main.c`**: a lockfile was added to prevent duplicate instances running,
+  potentially causing high CPU load.
 
 
 ![Screenshot](https://raw.githubusercontent.com/hboetes/swaylock-effects/master/screenshot.png)
